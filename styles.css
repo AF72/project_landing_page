@@ -1,0 +1,39 @@
+@font-face {
+  font-family: roboto;
+  src: url(/fonts/roboto/Roboto-Black.ttf);
+}
+
+body {
+  background-image: url("/images/pexels-markus-spiske-239419.jpg");
+}
+
+.header {
+  display: flex;
+  align-items: stretch;
+}
+
+.header > div {
+  background-color: #1f2937;
+  font-family: roboto;
+  color: white;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+  padding: 0px;
+}
+
+.logo {
+  flex-grow: 3;
+}
+
+.linkone {
+  flex-grow: 1;
+}
+
+.linktwo {
+  flex-grow: 1;
+}
+
+.linkthree {
+  flex-grow: 1;
+}
