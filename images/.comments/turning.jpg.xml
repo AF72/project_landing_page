@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption/>
+  <note>The multi-tasking CNC lathe machine cutting the automotive parts by  milling spindle  with the cutting tools. The automotive parts production processing by CNC turning machine .</note>
+  <place/>
+  <categories>
+    <category value="precision"/>
+    <category value="accuracy"/>
+    <category value="cutter"/>
+    <category value="mechanical"/>
+    <category value="multi"/>
+    <category value="manufacturing"/>
+    <category value="milling"/>
+  </categories>
+</comment>
