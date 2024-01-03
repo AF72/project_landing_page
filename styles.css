@@ -3,6 +3,12 @@
   src: url(/fonts/roboto/Roboto-Black.ttf);
 }
 
+@font-face {
+  font-family: roboto;
+  src: url(/fonts/roboto/Roboto-Black.ttf);
+  font-style: italic;
+}
+
 body {
   background-image: url("/images/pexels-markus-spiske-239419.jpg");
 }
@@ -54,6 +60,7 @@ body {
   height: 250px;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin: 10px 0px 10px 0px;
 }
 
 .login {
@@ -111,9 +118,10 @@ body {
 }
 
 .main1_iten1 > p {
-  font-family: roboto;
-  color: black;
+  color: white;
   font-size: 20px;
+  font-style: italic;
+  letter-spacing: 8px;
   text-align: center;
   margin: 0px;
   cursor: pointer;
@@ -125,10 +133,56 @@ body {
   border-color: black;
 }
 
+.main1_iten2:hover {
+  opacity: 0.5;
+}
+
 .main1_iten2 > p {
-  font-family: roboto;
-  color: black;
+  color: white;
   font-size: 20px;
+  font-style: italic;
+  letter-spacing: 8px;
   text-align: center;
   margin: 0px;
+  cursor: pointer;
+}
+
+.main1_iten3 > img {
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+}
+
+.main1_iten3:hover {
+  opacity: 0.5;
+}
+
+.main1_iten3 > p {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: 8px;
+  text-align: center;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.main1_iten4 > img {
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+}
+
+.main1_iten4:hover {
+  opacity: 0.5;
+}
+
+.main1_iten4 > p {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: 8px;
+  text-align: center;
+  margin: 0px;
+  cursor: pointer;
 }
