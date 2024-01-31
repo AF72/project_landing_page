@@ -21,12 +21,13 @@ body {
 }
 
 .header > div {
-  background-color: #1f2937;
+  background-color: #1f293793;
   font-family: roboto;
+  font-size: 30px;
   color: white;
   text-align: center;
+
   line-height: 75px;
-  font-size: 20px;
   padding: 0px;
 }
 
@@ -36,6 +37,7 @@ body {
 
 .linkone {
   flex-grow: 1;
+
   cursor: pointer;
 }
 
@@ -49,10 +51,16 @@ body {
   cursor: pointer;
 }
 
+.linkone:hover,
+.linktwo:hover,
+.linkthree:hover {
+  background-color: #3b4c64c5;
+}
+
 /* Style Login elements */
 
 .information {
-  background-color: #1f2937;
+  background-color: #1f293793;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -107,14 +115,13 @@ body {
 }
 
 .main1_iten1 > img {
-  border-style: solid;
   border-radius: 20px;
-  border-color: #1f2937;
   cursor: pointer;
 }
 
-.main1_iten1:hover {
-  opacity: 0.5;
+.main1_iten1 > img:hover {
+  border: 10px solid #2f3f5588;
+  cursor: pointer;
 }
 
 .main1_iten1 > p {
@@ -124,17 +131,15 @@ body {
   letter-spacing: 8px;
   text-align: center;
   margin: 0px;
-  cursor: pointer;
 }
 
 .main1_iten2 > img {
-  border-style: solid;
   border-radius: 20px;
-  border-color: black;
 }
 
-.main1_iten2:hover {
-  opacity: 0.5;
+.main1_iten2 > img:hover {
+  border: 10px solid #2f3f5588;
+  cursor: pointer;
 }
 
 .main1_iten2 > p {
@@ -144,17 +149,15 @@ body {
   letter-spacing: 8px;
   text-align: center;
   margin: 0px;
-  cursor: pointer;
 }
 
 .main1_iten3 > img {
-  border-style: solid;
   border-radius: 20px;
-  border-color: black;
 }
 
-.main1_iten3:hover {
-  opacity: 0.5;
+.main1_iten3 > img:hover {
+  border: 10px solid #2f3f5588;
+  cursor: pointer;
 }
 
 .main1_iten3 > p {
@@ -164,17 +167,15 @@ body {
   letter-spacing: 8px;
   text-align: center;
   margin: 0px;
-  cursor: pointer;
 }
 
 .main1_iten4 > img {
-  border-style: solid;
   border-radius: 20px;
-  border-color: black;
 }
 
-.main1_iten4:hover {
-  opacity: 0.5;
+.main1_iten4 > img:hover {
+  border: 10px solid #2f3f5588;
+  cursor: pointer;
 }
 
 .main1_iten4 > p {
@@ -184,5 +185,24 @@ body {
   letter-spacing: 8px;
   text-align: center;
   margin: 0px;
-  cursor: pointer;
+}
+
+/* Styling the main2 */
+.main2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.main2 > div {
+  color: white;
+  text-align: justify;
+  font-size: 20px;
+  background-color: #1f2937c0;
+  height: auto;
+  width: 500px;
+  padding: 10px 40px;
+  border-radius: 20px;
 }
